@@ -74,6 +74,8 @@
     .home__contant-texts {
         margin: 3vh 0;
         height: 100%;
+        width: 60%;
+        margin: 0 auto;
     }
 
     .home__contant-title {
