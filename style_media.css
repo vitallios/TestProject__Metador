@@ -1,0 +1,203 @@
+@media (min-width: 1400px) {
+    *{
+        font-size: 1vw;
+    }
+}
+@media (max-width: 770px) {
+
+    *{
+        font-size: 1.6vw;
+    }
+    .nav__btn {
+        padding: 14px 26px;
+    }
+
+    .nav__logo,
+    .nav__menu,
+    .nav__btn {
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .header__nav {
+        margin: 1.5vh;
+        width: fit-content;
+        padding: 0;
+    }
+    .home__contant-title {
+        font-size: 6vw;
+    }
+
+    .home__contant-text {
+        font-size: 2.3vw;
+    }
+    .home__contant-texts {
+        margin: 4vh 0;
+        height: 45vw;
+    }
+    .animals__title, .les__title {
+        font-size: 3.4vw;
+    }
+    .animals__list {
+        gap: 1.5vw;
+    }
+    .animals__list>li,
+    .les__list>li,
+    .scot__list>li {
+        font-size: 2.2vw;
+        line-height: 4.5vw;
+    }
+    .forms__item {
+        padding: 2.2vw 1.3vw;
+        width: 50%;
+        font-size: 2vw;
+    }
+    .footer__info-firms>h3, .footer__contacts-firms>a {
+        color: #fff;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        font-size: 3vw;
+    }
+
+
+
+    .home__contant {
+        padding: 1vw 0;
+        top: 2vw;
+    }
+
+    .home__contant-texts {
+        margin: 3vh 0;
+        height: 100%;
+    }
+
+    .home__contant-title {
+        font-size: 7vw;
+    }
+
+    .home__contant-textTwo,
+    .home__contant-textOen {
+        width: 100%;
+        position: static;
+        font-size: 4vw;
+    }
+
+    .prouct__title {
+        font-size: 6vw;
+    }
+
+    .animals__title,
+    .les__title {
+        font-size: 4.4vw;
+        margin-bottom: 1vw;
+    }
+
+    .animals__list {
+        flex-direction: column;
+        gap: 2.5vw;
+        margin-top: 4.5vw;
+    }
+
+    .animals__list>li,
+    .les__list>li,
+    .scot__list>li {
+        font-size: 3.2vw;
+        line-height: 4.5vw;
+    }
+
+    .forms__item {
+        padding: 2vw 0.8vw;
+        width: 80%;
+    }
+
+    .footer__contant {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3vw;
+    }
+    .footer__info-firms>h3, .footer__contacts-firms>a {
+        font-size: 3.3vw;
+    }
+    .footer__contacts-firms {
+        align-items: flex-start;
+
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        font-size: 3vw;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .home__contant {
+        padding: 1vw 0;
+        top: 2vw;
+    }
+
+    .home__contant-texts {
+        margin: 3vh 0;
+        height: 100%;
+    }
+
+    .home__contant-title {
+        font-size: 7vw;
+    }
+
+    .home__contant-textTwo,
+    .home__contant-textOen {
+        width: 100%;
+        position: static;
+        font-size: 4vw;
+    }
+
+    .prouct__title {
+        font-size: 6vw;
+    }
+
+    .animals__title,
+    .les__title {
+        font-size: 4.4vw;
+        margin-bottom: 1vw;
+    }
+
+    .animals__list {
+        flex-direction: column;
+        gap: 2.5vw;
+        margin-top: 4.5vw;
+    }
+
+    .animals__list>li,
+    .les__list>li,
+    .scot__list>li {
+        font-size: 3.2vw;
+        line-height: 4.5vw;
+    }
+
+    .forms__item {
+        padding: 2vw 0.8vw;
+        width: 80%;
+    }
+
+    .footer__contant {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3vw;
+    }
+    .footer__info-firms>h3, .footer__contacts-firms>a {
+        font-size: 3.3vw;
+    }
+    .footer__contacts-firms {
+        align-items: flex-start;
+
+    }
+}
+
